@@ -1,0 +1,13 @@
+
+<html>
+<body>
+<input id="out" readonly>
+<br>
+<button onclick="out.value+=this.innerText">1</button>
+<button onclick="out.value+=this.innerText">2</button>
+<button onclick="out.value+=this.innerText">+</button>
+<button onclick="out.value=eval(out.value)">=</button>
+
+<script>let out=document.getElementById("out");</script>
+</body>
+</html>
